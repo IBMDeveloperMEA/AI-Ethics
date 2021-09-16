@@ -37,7 +37,7 @@ Give your project a unique name and click on create
 
 ## Step 4: Add Data
 
-Go to https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360 and download code in zip file. Un-zip the folder.
+Go to "dataset" folder and download code in zip file. Un-zip the folder.
 
 <img width="692" alt="8" src="https://user-images.githubusercontent.com/16270682/130228304-fea200fc-8508-4510-81fb-7a2a76eb90d4.PNG">
 
