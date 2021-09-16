@@ -37,11 +37,11 @@ Give your project a unique name and click on create
 
 ## Step 4: Add Data
 
-Go to "dataset" folder and download code in zip file. Un-zip the folder.
+Go to https://github.com/Anam-Mahmood/Identify-and-remove-bias-from-AI-models-using-Watson-Studio and either clone or download code in zip file. Un-zip the folder.
 
 ![download-zip](https://github.com/Anam-Mahmood/Identify-and-remove-bias-from-AI-models-using-Watson-Studio/blob/main/images/Screen%20Shot%202021-09-16%20at%205.25.19%20PM.png?raw=true)
 
-
+Now that you have the code files on your computer, go to your AutoAI project on IBM Cloud.
 Click on Assets and select Browse and add fraud_data.csv file from your file system. Repeat the step and add the Pipeline_LabelEncoder-0.1.zip file as an asset.
 
 <img width="918" alt="9" src="https://user-images.githubusercontent.com/16270682/130228315-b24224e9-a3c1-4710-9f35-6caf48bc9c3a.PNG">
