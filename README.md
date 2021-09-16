@@ -39,7 +39,7 @@ Give your project a unique name and click on create
 
 Go to "dataset" folder and download code in zip file. Un-zip the folder.
 
-<img width="692" alt="8" src="https://user-images.githubusercontent.com/16270682/130228304-fea200fc-8508-4510-81fb-7a2a76eb90d4.PNG">
+![download-zip](https://github.com/Anam-Mahmood/Identify-and-remove-bias-from-AI-models-using-Watson-Studio/blob/main/images/Screen%20Shot%202021-09-16%20at%205.25.19%20PM.png?raw=true)
 
 
 Click on Assets and select Browse and add fraud_data.csv file from your file system. Repeat the step and add the Pipeline_LabelEncoder-0.1.zip file as an asset.
