@@ -1,4 +1,4 @@
-# Identify-and-remove-bias-from-AI-models-using-Watson-Studio
+# Identify and remove bias from AI models using Watson Studio
 
 ## Step 1: Create an IBM Cloud account
 
