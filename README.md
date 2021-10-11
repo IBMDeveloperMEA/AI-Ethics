@@ -1,5 +1,19 @@
 # Learn to Adopt responsible AI that will help you build Build Ethical Models
 
+## Prerequisites
+
+### Sign-up/Login to IBM Cloud
+
+If you are an existing user please login to IBM Cloud through http://ibm.biz/aiethics
+
+And if you are not, don't worry! We have got you covered! There are 3 steps to create your account on IBM Cloud: 
+1. Put your email and password. 
+2. You get a verification link with the registered email to verify your account. 
+3. Fill the personal information fields. 
+** Please make sure you select the country you are in when asked at any step of the registration process.
+[image](https://user-images.githubusercontent.com/54094367/136783264-38bc77b7-9bd4-42f6-867f-85a61feff3b7.png)
+
+
 ## Step 1: Create an IBM Cloud account
 
 Login/Sign-up for IBM Cloud Account: http://ibm.biz/aiethics
