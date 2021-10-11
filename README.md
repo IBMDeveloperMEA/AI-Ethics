@@ -16,7 +16,7 @@
   * [How does the fairness algorithm work?](#how-does-the-fairness-algorithm-work-)
   * [Architecture diagram](#architecture-diagram)
     + [Flow](#flow)
-  * [Step 1: Create an IBM Cloud account](#step-1--create-an-ibm-cloud-account)
+  * [Step 1: Create an IBM Cloud account](#step-1-create-an-ibm-cloud-account)
   * [Step 2: Create Watson Studio service](#step-2--create-watson-studio-service)
   * [Step 3: Create a new Watson Studio project](#step-3--create-a-new-watson-studio-project)
   * [Step 4: Add Data](#step-4--add-data)
