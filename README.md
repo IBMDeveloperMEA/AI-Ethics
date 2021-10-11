@@ -139,7 +139,7 @@ Repeat the above steps for in-processing and Post-processing
 Enter this Notebook URL for In-processing : https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/notebooks/In-processing.ipynb
 Enter this Notebook URL for Post-processing : https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/notebooks/Post-processing.ipynb
 
-## Step 6:Insert the data as dataframe
+## Step 6: Insert the data as dataframe
 
 Open Pre-processing Notebook from Dashboard and click on edit
 
