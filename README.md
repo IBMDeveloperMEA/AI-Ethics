@@ -1,5 +1,71 @@
 # Learn to Adopt responsible AI that will help you build Build Ethical Models
 
+## Workshop Resources
+
+- Login/Sign Up for IBM Cloud: http://ibm.biz/aiethics
+
+- Slides:
+
+- Workshop Replay: https://www.crowdcast.io/e/adopt-responsible-ai
+
+## Table of Contents
+* [Workshop Resources](#workshop-resources)
+  * [Table of Contents](#table-of-contents)
+  * [Prerequisites](#prerequisites)
+    + [Sign-up/Login to IBM Cloud](#sign-up-login-to-ibm-cloud)
+  * [About the Workshop](#about-the-workshop)
+  * [How does the fairness algorithm work?](#how-does-the-fairness-algorithm-work-)
+  * [Architecture diagram](#architecture-diagram)
+    + [Flow](#flow)
+  * [Step 1: Create an IBM Cloud account](#step-1--create-an-ibm-cloud-account)
+  * [Step 2: Create Watson Studio service](#step-2--create-watson-studio-service)
+  * [Step 3: Create a new Watson Studio project](#step-3--create-a-new-watson-studio-project)
+  * [Step 4: Add Data](#step-4--add-data)
+  * [Step 5:  Create the notebook](#step-5---create-the-notebook)
+    + [Note: You will create three Notebooks here by repeating the below steps.](#note--you-will-create-three-notebooks-here-by-repeating-the-below-steps)
+  * [Step 6:Insert the data as dataframe](#step-6-insert-the-data-as-dataframe)
+  * [Step 7: Run the notebook & Analyze Result](#step-7--run-the-notebook---analyze-result)
+  * [Reference](#reference)
+
+
+
+## Prerequisites
+
+### Sign-up/Login to IBM Cloud
+
+If you are an existing user please login to IBM Cloud through http://ibm.biz/aiethics
+
+And if you are not, don't worry! We have got you covered! There are 3 steps to create your account on IBM Cloud: 
+1. Put your email and password. 
+2. You get a verification link with the registered email to verify your account. 
+3. Fill the personal information fields. 
+** Please make sure you select the country you are in when asked at any step of the registration process.
+![image](https://user-images.githubusercontent.com/54094367/136783264-38bc77b7-9bd4-42f6-867f-85a61feff3b7.png)
+
+## About the Workshop 
+How do we remove bias from the machine learning models and ensure that the predictions are fair? What are the three stages in which the bias mitigation solution can be applied? This code pattern answers these questions and more to help developers, data scientists, stakeholders take informed decision by consuming the results of predictive models.
+
+Fairness in data, and machine learning algorithms is critical to building safe and responsible AI systems from the ground up by design. Both technical and business AI stakeholders are in constant pursuit of fairness to ensure they meaningfully address problems like AI bias. While accuracy is one metric for evaluating the accuracy of a machine learning model, fairness gives us a way to understand the practical implications of deploying the model in a real-world situation.
+
+## How does the fairness algorithm work?
+
+The bias mitigation algorithm can be applied in three different stages of model building. These stages are pre-processing, in-processing & post-processing. The below diagram demonstrates how it works.
+![image]()
+
+The AIF360 Python package contains nine different algorithms, developed by the broader algorithmic fairness research community, to mitigate that unwanted bias. They can all be called in a standard way, very similar to scikit-learn’s fit/predict paradigm. In this way, we hope that the package is not only a way to bring all of us researchers together, but also a way to translate our collective research results to data scientists, data engineers, and developers deploying solutions in a variety of industries. You can learn more about AIF 360 here.
+
+## Architecture diagram
+
+
+
+### Flow
+
+1. Log in to Watson Studio powered by spark, initiate Cloud Object Storage, and create a project.
+2. Upload the .csv data file to Object Storage.
+3. Load the Data File in Watson Studio Notebook.
+4. Install aif 360 Toolkit in the Watson Studio Notebook.
+5. Analyze the results after applying the bias mitigation algorithm during pre-processing, in-processing & post-processing stages.
+
 ## Step 1: Create an IBM Cloud account
 
 Login/Sign-up for IBM Cloud Account: http://ibm.biz/aiethics
