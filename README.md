@@ -9,8 +9,7 @@
 - Workshop Replay: https://www.crowdcast.io/e/adopt-responsible-ai
 
 ## Table of Contents
-* [Workshop Resources](#workshop-resources)
-  * [Table of Contents](#table-of-contents)
+
   * [Prerequisites](#prerequisites)
     + [Sign-up/Login to IBM Cloud](#sign-up-login-to-ibm-cloud)
   * [About the Workshop](#about-the-workshop)
