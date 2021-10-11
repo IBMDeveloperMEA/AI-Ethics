@@ -4,7 +4,7 @@
 
 - Login/Sign Up for IBM Cloud: http://ibm.biz/aiethics
 
-- Slides:
+- Slides: https://www.slideshare.net/AnamMahmood10/learn-to-adopt-responsible-ai-that-will-help-you-build-build-ethical-models
 
 - Workshop Replay: https://www.crowdcast.io/e/adopt-responsible-ai
 - Survey: www.surveygizmo.com/s3/6083679/fd8654af11e9?uid=615ab51a4260e2cf77735586
