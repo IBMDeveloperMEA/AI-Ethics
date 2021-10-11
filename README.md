@@ -22,7 +22,7 @@
   * [Step 4: Add Data](#step-4-add-data)
   * [Step 5: Create the notebook](#step-5-create-the-notebook)
     + [Note: You will create three Notebooks here by repeating the below steps.](#note-you-will-create-three-notebooks-here-by-repeating-the-below-steps)
-  * [Step 6:Insert the data as dataframe](#step-6-insert-the-data-as-dataframe)
+  * [Step 6: Insert the data as dataframe](#step-6-insert-the-data-as-dataframe)
   * [Step 7: Run the notebook & Analyze Result](#step-7-run-the-notebook---analyze-result)
   * [Reference](#reference)
 
