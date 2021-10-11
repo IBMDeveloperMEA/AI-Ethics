@@ -1,5 +1,33 @@
 # Learn to Adopt responsible AI that will help you build Build Ethical Models
 
+## Workshop Resources
+
+- Login/Sign Up for IBM Cloud: http://ibm.biz/aiethics
+
+- Slides:
+
+- Workshop Replay: https://www.crowdcast.io/e/adopt-responsible-ai
+- Survey: www.surveygizmo.com/s3/6083679/fd8654af11e9?uid=615ab51a4260e2cf77735586
+
+## Table of Contents
+
+  * [Prerequisites](#prerequisites)
+    + [Sign-up/Login to IBM Cloud](#sign-up-login-to-ibm-cloud)
+  * [About the Workshop](#about-the-workshop)
+  * [How does the fairness algorithm work?](#how-does-the-fairness-algorithm-work-)
+  * [Architecture diagram](#architecture-diagram)
+    + [Flow](#flow)
+  * [Step 1: Create an IBM Cloud account](#step-1-create-an-ibm-cloud-account)
+  * [Step 2: Create Watson Studio service](#step-2-create-watson-studio-service)
+  * [Step 3: Create a new Watson Studio project](#step-3-create-a-new-watson-studio-project)
+  * [Step 4: Add Data](#step-4-add-data)
+  * [Step 5: Create the notebook](#step-5-create-the-notebook)
+    + [Note: You will create three Notebooks here by repeating the below steps.](#note-you-will-create-three-notebooks-here-by-repeating-the-below-steps)
+  * [Step 6: Insert the data as dataframe](#step-6-insert-the-data-as-dataframe)
+  * [Step 7: Run the notebook & Analyze Result](#step-7-run-the-notebook---analyze-result)
+  * [Feedback](#feedback)
+  * [Reference](#reference)
+
 ## Prerequisites
 
 ### Sign-up/Login to IBM Cloud
@@ -11,7 +39,32 @@ And if you are not, don't worry! We have got you covered! There are 3 steps to c
 2. You get a verification link with the registered email to verify your account. 
 3. Fill the personal information fields. 
 ** Please make sure you select the country you are in when asked at any step of the registration process.
-[image](https://user-images.githubusercontent.com/54094367/136783264-38bc77b7-9bd4-42f6-867f-85a61feff3b7.png)
+
+![image](https://user-images.githubusercontent.com/54094367/136783264-38bc77b7-9bd4-42f6-867f-85a61feff3b7.png)
+
+## About the Workshop 
+How do we remove bias from the machine learning models and ensure that the predictions are fair? What are the three stages in which the bias mitigation solution can be applied? This code pattern answers these questions and more to help developers, data scientists, stakeholders take informed decision by consuming the results of predictive models.
+
+Fairness in data, and machine learning algorithms is critical to building safe and responsible AI systems from the ground up by design. Both technical and business AI stakeholders are in constant pursuit of fairness to ensure they meaningfully address problems like AI bias. While accuracy is one metric for evaluating the accuracy of a machine learning model, fairness gives us a way to understand the practical implications of deploying the model in a real-world situation.
+
+## How does the fairness algorithm work?
+
+The bias mitigation algorithm can be applied in three different stages of model building. These stages are pre-processing, in-processing & post-processing. The below diagram demonstrates how it works.
+![algorithm-working](https://github.com/Anam-Mahmood/AI-Ethics/blob/main/images/aif-360-flow.png?raw=true)
+
+The AIF360 Python package contains nine different algorithms, developed by the broader algorithmic fairness research community, to mitigate that unwanted bias. They can all be called in a standard way, very similar to scikit-learn’s fit/predict paradigm. In this way, we hope that the package is not only a way to bring all of us researchers together, but also a way to translate our collective research results to data scientists, data engineers, and developers deploying solutions in a variety of industries. You can learn more about AIF 360 here.
+
+## Architecture diagram
+![architecture-diagram](https://github.com/Anam-Mahmood/AI-Ethics/blob/main/images/architecture-2.png?raw=true)
+
+
+### Flow
+
+1. Log in to Watson Studio powered by spark, initiate Cloud Object Storage, and create a project.
+2. Upload the .csv data file to Object Storage.
+3. Load the Data File in Watson Studio Notebook.
+4. Install aif 360 Toolkit in the Watson Studio Notebook.
+5. Analyze the results after applying the bias mitigation algorithm during pre-processing, in-processing & post-processing stages.
 
 
 ## Step 1: Create an IBM Cloud account
@@ -52,7 +105,7 @@ Give your project a unique name and click on create
 
 ## Step 4: Add Data
 
-Go to https://github.com/Anam-Mahmood/Identify-and-remove-bias-from-AI-models-using-Watson-Studio and either clone or download code in zip file. Un-zip the folder.
+Go to https://github.com/Anam-Mahmood/AI-Ethics and either clone or download code in zip file. Un-zip the folder.
 
 ![download-zip](https://github.com/Anam-Mahmood/Identify-and-remove-bias-from-AI-models-using-Watson-Studio/blob/main/images/Screen%20Shot%202021-09-16%20at%205.25.19%20PM.png?raw=true)
 
@@ -61,7 +114,7 @@ Click on Assets and select Browse and add fraud_data.csv file from your file sys
 
 <img width="918" alt="9" src="https://user-images.githubusercontent.com/16270682/130228315-b24224e9-a3c1-4710-9f35-6caf48bc9c3a.PNG">
 
-## Step 5:  Create the notebook
+## Step 5: Create the notebook
 
 
 ### Note: You will create three Notebooks here by repeating the below steps. 
@@ -88,7 +141,7 @@ Repeat the above steps for in-processing and Post-processing
 Enter this Notebook URL for In-processing : https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/notebooks/In-processing.ipynb
 Enter this Notebook URL for Post-processing : https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/notebooks/Post-processing.ipynb
 
-## Step 6:Insert the data as dataframe
+## Step 6: Insert the data as dataframe
 
 Open Pre-processing Notebook from Dashboard and click on edit
 
@@ -129,6 +182,12 @@ After we run all cells in the notebook, the results are displayed at the end of 
 Pre-processing results We can observe that, priviledged group had 37% more chance of getting a favorable outcome because of the bias in the dataset.
 
 <img width="635" alt="17" src="https://user-images.githubusercontent.com/16270682/130235779-3a41c4cc-be3f-430e-9f01-62ff85523195.PNG">
+
+
+## Feedback
+Your feedback matters to us! Take this short survey and let us know how we are doing!
+www.surveygizmo.com/s3/6083679/fd8654af11e9?uid=615ab51a4260e2cf77735586
+![survey](https://github.com/Anam-Mahmood/AI-Ethics/blob/main/images/11th%20oct%20webinar.png?raw=true)
 
 
 ## Reference
