@@ -17,13 +17,13 @@
   * [Architecture diagram](#architecture-diagram)
     + [Flow](#flow)
   * [Step 1: Create an IBM Cloud account](#step-1-create-an-ibm-cloud-account)
-  * [Step 2: Create Watson Studio service](#step-2--create-watson-studio-service)
-  * [Step 3: Create a new Watson Studio project](#step-3--create-a-new-watson-studio-project)
-  * [Step 4: Add Data](#step-4--add-data)
-  * [Step 5:  Create the notebook](#step-5---create-the-notebook)
-    + [Note: You will create three Notebooks here by repeating the below steps.](#note--you-will-create-three-notebooks-here-by-repeating-the-below-steps)
+  * [Step 2: Create Watson Studio service](#step-2-create-watson-studio-service)
+  * [Step 3: Create a new Watson Studio project](#step-3-create-a-new-watson-studio-project)
+  * [Step 4: Add Data](#step-4-add-data)
+  * [Step 5: Create the notebook](#step-5-create-the-notebook)
+    + [Note: You will create three Notebooks here by repeating the below steps.](#note-you-will-create-three-notebooks-here-by-repeating-the-below-steps)
   * [Step 6:Insert the data as dataframe](#step-6-insert-the-data-as-dataframe)
-  * [Step 7: Run the notebook & Analyze Result](#step-7--run-the-notebook---analyze-result)
+  * [Step 7: Run the notebook & Analyze Result](#step-7-run-the-notebook---analyze-result)
   * [Reference](#reference)
 
 
@@ -112,7 +112,7 @@ Click on Assets and select Browse and add fraud_data.csv file from your file sys
 
 <img width="918" alt="9" src="https://user-images.githubusercontent.com/16270682/130228315-b24224e9-a3c1-4710-9f35-6caf48bc9c3a.PNG">
 
-## Step 5:  Create the notebook
+## Step 5: Create the notebook
 
 
 ### Note: You will create three Notebooks here by repeating the below steps. 
