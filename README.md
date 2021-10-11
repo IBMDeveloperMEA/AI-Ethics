@@ -56,7 +56,7 @@ The bias mitigation algorithm can be applied in three different stages of model 
 The AIF360 Python package contains nine different algorithms, developed by the broader algorithmic fairness research community, to mitigate that unwanted bias. They can all be called in a standard way, very similar to scikit-learn’s fit/predict paradigm. In this way, we hope that the package is not only a way to bring all of us researchers together, but also a way to translate our collective research results to data scientists, data engineers, and developers deploying solutions in a variety of industries. You can learn more about AIF 360 here.
 
 ## Architecture diagram
-[architecture-diagram](https://github.com/Anam-Mahmood/AI-Ethics/blob/main/images/architecture-2.png?raw=true)
+![architecture-diagram](https://github.com/Anam-Mahmood/AI-Ethics/blob/main/images/architecture-2.png?raw=true)
 
 
 ### Flow
@@ -187,7 +187,9 @@ Pre-processing results We can observe that, priviledged group had 37% more chanc
 ## Feedback
 Your feedback matters to us! Take this short survey and let us know how we are doing!
 www.surveygizmo.com/s3/6083679/fd8654af11e9?uid=615ab51a4260e2cf77735586
-[survey](https://github.com/Anam-Mahmood/AI-Ethics/blob/main/images/11th%20oct%20webinar.png?raw=true)
+![survey](https://github.com/Anam-Mahmood/AI-Ethics/blob/main/images/11th%20oct%20webinar.png?raw=true)
+
+
 ## Reference
 
 https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360 
