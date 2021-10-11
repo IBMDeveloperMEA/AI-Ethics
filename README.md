@@ -105,7 +105,7 @@ Give your project a unique name and click on create
 
 ## Step 4: Add Data
 
-Go to https://github.com/Anam-Mahmood/Identify-and-remove-bias-from-AI-models-using-Watson-Studio and either clone or download code in zip file. Un-zip the folder.
+Go to https://github.com/Anam-Mahmood/AI-Ethics and either clone or download code in zip file. Un-zip the folder.
 
 ![download-zip](https://github.com/Anam-Mahmood/Identify-and-remove-bias-from-AI-models-using-Watson-Studio/blob/main/images/Screen%20Shot%202021-09-16%20at%205.25.19%20PM.png?raw=true)
 
