@@ -28,8 +28,6 @@
   * [Feedback](#feedback)
   * [Reference](#reference)
 
-
-
 ## Prerequisites
 
 ### Sign-up/Login to IBM Cloud
@@ -41,6 +39,7 @@ And if you are not, don't worry! We have got you covered! There are 3 steps to c
 2. You get a verification link with the registered email to verify your account. 
 3. Fill the personal information fields. 
 ** Please make sure you select the country you are in when asked at any step of the registration process.
+
 ![image](https://user-images.githubusercontent.com/54094367/136783264-38bc77b7-9bd4-42f6-867f-85a61feff3b7.png)
 
 ## About the Workshop 
@@ -66,6 +65,7 @@ The AIF360 Python package contains nine different algorithms, developed by the b
 3. Load the Data File in Watson Studio Notebook.
 4. Install aif 360 Toolkit in the Watson Studio Notebook.
 5. Analyze the results after applying the bias mitigation algorithm during pre-processing, in-processing & post-processing stages.
+
 
 ## Step 1: Create an IBM Cloud account
 
