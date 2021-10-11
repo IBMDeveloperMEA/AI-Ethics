@@ -7,6 +7,7 @@
 - Slides:
 
 - Workshop Replay: https://www.crowdcast.io/e/adopt-responsible-ai
+- Survey: www.surveygizmo.com/s3/6083679/fd8654af11e9?uid=615ab51a4260e2cf77735586
 
 ## Table of Contents
 
@@ -24,6 +25,7 @@
     + [Note: You will create three Notebooks here by repeating the below steps.](#note-you-will-create-three-notebooks-here-by-repeating-the-below-steps)
   * [Step 6: Insert the data as dataframe](#step-6-insert-the-data-as-dataframe)
   * [Step 7: Run the notebook & Analyze Result](#step-7-run-the-notebook---analyze-result)
+  * [Feedback](#feedback)
   * [Reference](#reference)
 
 
@@ -49,12 +51,12 @@ Fairness in data, and machine learning algorithms is critical to building safe a
 ## How does the fairness algorithm work?
 
 The bias mitigation algorithm can be applied in three different stages of model building. These stages are pre-processing, in-processing & post-processing. The below diagram demonstrates how it works.
-![image]()
+![algorithm-working](https://github.com/Anam-Mahmood/AI-Ethics/blob/main/images/aif-360-flow.png?raw=true)
 
 The AIF360 Python package contains nine different algorithms, developed by the broader algorithmic fairness research community, to mitigate that unwanted bias. They can all be called in a standard way, very similar to scikit-learn’s fit/predict paradigm. In this way, we hope that the package is not only a way to bring all of us researchers together, but also a way to translate our collective research results to data scientists, data engineers, and developers deploying solutions in a variety of industries. You can learn more about AIF 360 here.
 
 ## Architecture diagram
-
+[architecture-diagram](https://github.com/Anam-Mahmood/AI-Ethics/blob/main/images/architecture-2.png?raw=true)
 
 
 ### Flow
@@ -182,6 +184,10 @@ Pre-processing results We can observe that, priviledged group had 37% more chanc
 <img width="635" alt="17" src="https://user-images.githubusercontent.com/16270682/130235779-3a41c4cc-be3f-430e-9f01-62ff85523195.PNG">
 
 
+## Feedback
+Your feedback matters to us! Take this short survey and let us know how we are doing!
+www.surveygizmo.com/s3/6083679/fd8654af11e9?uid=615ab51a4260e2cf77735586
+[survey](https://github.com/Anam-Mahmood/AI-Ethics/blob/main/images/11th%20oct%20webinar.png?raw=true)
 ## Reference
 
 https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360 
