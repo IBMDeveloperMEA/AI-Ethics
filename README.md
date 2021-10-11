@@ -1,8 +1,9 @@
-# Identify and remove bias from AI models using Watson Studio
+# Learn to Adopt responsible AI that will help you build Build Ethical Models
 
 ## Step 1: Create an IBM Cloud account
 
-Login/Sign-up for IBM Cloud Account: https://ibm.biz/removebias 
+Login/Sign-up for IBM Cloud Account: http://ibm.biz/aiethics
+
 
 ## Step 2: Create Watson Studio service
 
